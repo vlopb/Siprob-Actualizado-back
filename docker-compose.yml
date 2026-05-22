@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  some-postgres:
+    image: postgres:16.1-alpine
+    container_name: some-postgres
+    networks:
+      siprob-network:
+        ipv4_address: 172.20.0.10
+    environment:
+      POSTGRES_PASSWORD: passwordPSQL1_
+    ports:
+      - "5432:5432"
+
+  siprob-api:
+    image: vlopb/siprob-api:latest
+    container_name: siprob-api
+    networks:
+      siprob-network:
+        ipv4_address: 172.20.0.11
+    ports:
+      - "8045:8000"
+    volumes:
+      - siprob-api-volume:/usr/src/app/public
+    depends_on:
+      - some-postgres
+
+networks:
+  siprob-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+
+volumes:
+  siprob-api-volume:

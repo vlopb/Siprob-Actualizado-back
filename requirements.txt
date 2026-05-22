@@ -1,0 +1,15 @@
+django
+djangorestframework
+drf_yasg
+django-storages
+psycopg2-binary==2.9.9
+python-dotenv
+Pillow
+django-cors-headers
+requests
+PyJWT
+djangorestframework-simplejwt
+python-decouple
+pandas
+xlsxwriter
+python-dateutil

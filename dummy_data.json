@@ -1,0 +1,986 @@
+[
+    {
+        "model": "roles.Role",
+        "pk": 1,
+        "fields": {
+            "color": "#178004A",
+            "name": "Usuario",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 1,
+        "fields": {
+            "name": "DISTRITO UNIVERSIDAD",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 2,
+        "fields": {
+            "name": "DISTRITO ORIENTE",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 3,
+        "fields": {
+            "name": "DISTRITO CENTRO",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 4,
+        "fields": {
+            "name": "DISTRITO RIVERAS",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 5,
+        "fields": {
+            "name": "DISTRITOS PONIENTE",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 6,
+        "fields": {
+            "name": "DISTRITO SUR",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 7,
+        "fields": {
+            "name": "DISTRITO VALLE",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 8,
+        "fields": {
+            "name": "CERESITO",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "roles.Role",
+        "pk": 2,
+        "fields": {
+            "color": "#178004A",
+            "name": "Agent",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "shifts.Shift",
+        "pk": 1,
+        "fields": {
+            "start_hour": "12:00",
+            "end_hour": "20:00",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "shifts.Shift",
+        "pk": 2,
+        "fields": {
+            "start_hour": "20:00",
+            "end_hour": "04:00",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 1,
+        "fields": {
+            "name": "CENTRO",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 2,
+        "fields": {
+            "name": "SUR",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "districts.District",
+        "pk": 3,
+        "fields": {
+            "name": "NORTE",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "detainees.Detainee",
+        "pk": 1,
+        "fields": {
+            "name": "Jaime",
+            "fathers_name": "Acosta",
+            "mothers_name": "Ramirez",
+            "birth_date": "2003-11-28",
+            "age": 20,
+            "nicknames": "El Tuercas",
+            "marital_status": "Single",
+            "gender": "male",
+            "sexual_preferences": "hetero",
+            "ethnicity": "latin",
+            "schooling": "elementary",
+            "occupation": "thief",
+            "nationality": "mexican",
+            "notes": "Testing",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "detainees.Detainee",
+        "pk": 2,
+        "fields": {
+            "name": "Ruben",
+            "fathers_name": "Jaime",
+            "mothers_name": "Venzor",
+            "birth_date": "2003-11-28",
+            "age": 20,
+            "nicknames": "El Rubas",
+            "marital_status": "Single",
+            "gender": "male",
+            "sexual_preferences": "hetero",
+            "ethnicity": "latin",
+            "schooling": "elementary",
+            "occupation": "singer",
+            "nationality": "mexican",
+            "notes": "Testing",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "detainees.Detainee",
+        "pk": 3,
+        "fields": {
+            "name": "Guillermina",
+            "fathers_name": "Vargas",
+            "mothers_name": "Venzor",
+            "birth_date": "2003-11-28",
+            "age": 20,
+            "nicknames": "America",
+            "marital_status": "Single",
+            "gender": "female",
+            "sexual_preferences": "hetero",
+            "ethnicity": "latin",
+            "schooling": "elementary",
+            "occupation": "nurse",
+            "nationality": "mexican",
+            "notes": "Testing",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "detainees.Detainee",
+        "pk": 4,
+        "fields": {
+            "name": "Alejandro",
+            "fathers_name": "Gomez",
+            "mothers_name": "Ramirez",
+            "birth_date": "1990-05-15",
+            "age": 32,
+            "nicknames": "Alex",
+            "marital_status": "Married",
+            "gender": "male",
+            "sexual_preferences": "hetero",
+            "ethnicity": "hispanic",
+            "schooling": "high school",
+            "occupation": "engineer",
+            "nationality": "spanish",
+            "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "created_at": "2023-11-29 09:15:45.123 -0600",
+            "updated_at": "2023-11-29 09:15:45.123 -0600"
+        }
+    },
+    {
+        "model": "detainees.Detainee",
+        "pk": 5,
+        "fields": {
+            "name": "Samantha",
+            "fathers_name": "Jones",
+            "mothers_name": "Smith",
+            "birth_date": "1985-09-10",
+            "age": 37,
+            "nicknames": "Sam",
+            "marital_status": "Divorced",
+            "gender": "female",
+            "sexual_preferences": "bisexual",
+            "ethnicity": "caucasian",
+            "schooling": "college",
+            "occupation": "journalist",
+            "nationality": "american",
+            "notes": "This is a sample detainee for testing purposes.",
+            "created_at": "2023-11-30 12:40:22.567 -0600",
+            "updated_at": "2023-11-30 12:40:22.567 -0600"
+        }
+    },
+    {
+        "model": "detainees.Detainee",
+        "pk": 6,
+        "fields": {
+            "name": "Raj",
+            "fathers_name": "Patel",
+            "mothers_name": "Mehta",
+            "birth_date": "1998-03-22",
+            "age": 255,
+            "nicknames": "Raja",
+            "marital_status": "Single",
+            "gender": "male",
+            "sexual_preferences": "gay",
+            "ethnicity": "asian",
+            "schooling": "university",
+            "occupation": "software developer",
+            "nationality": "indian",
+            "notes": "Test data for detainee model.",
+            "created_at": "2023-12-01 15:55:10.890 -0600",
+            "updated_at": "2023-12-01 15:55:10.890 -0600"
+        }
+    },
+    {
+        "model": "detainees.Photos",
+        "pk": 1,
+        "fields": {
+            "detainee": 1,
+            "image_path": "/public/images/1.jpg",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "detainees.Photos",
+        "pk": 2,
+        "fields": {
+            "detainee": 2,
+            "image_path": "/public/images/2.jpg",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "detainees.Photos",
+        "pk": 3,
+        "fields": {
+            "detainee": 3,
+            "image_path": "/public/images/3.jpg",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "detainees.Photos",
+        "pk": 4,
+        "fields": {
+            "detainee": 4,
+            "image_path": "/public/images/4.jpg",
+            "created_at": "2023-11-29 09:15:45.123 -0600",
+            "updated_at": "2023-11-29 09:15:45.123 -0600"
+        }
+    },
+    {
+        "model": "detainees.Photos",
+        "pk": 5,
+        "fields": {
+            "detainee": 5,
+            "image_path": "/public/images/5.jpg",
+            "created_at": "2023-11-30 12:40:22.567 -0600",
+            "updated_at": "2023-11-30 12:40:22.567 -0600"
+        }
+    },
+    {
+        "model": "detainees.Photos",
+        "pk": 6,
+        "fields": {
+            "detainee": 6,
+            "image_path": "/public/images/6.jpg",
+            "created_at": "2023-12-01 15:55:10.890 -0600",
+            "updated_at": "2023-12-01 15:55:10.890 -0600"
+        }
+    },
+    {
+        "model": "records.Records",
+        "pk": 1,
+        "fields": {
+            "folio_afi": "147812",
+            "district": 1,
+            "detainee": 1,
+            "entry_date": "2023-11-28 16:00:00.000 -0700",
+            "detainee_photo": 1,
+            "has_been_released": false,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "records.Records",
+        "pk": 2,
+        "fields": {
+            "folio_afi": "157812",
+            "district": 1,
+            "detainee": 2,
+            "entry_date": "2023-11-28 16:00:00.000 -0700",
+            "has_been_released": false,
+            "detainee_photo": 2,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "records.Records",
+        "pk": 3,
+        "fields": {
+            "folio_afi": "167812",
+            "district": 1,
+            "has_been_released": false,
+            "detainee": 3,
+            "entry_date": "2023-11-28 16:00:00.000 -0700",
+            "detainee_photo": 3,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "records.Records",
+        "pk": 4,
+        "fields": {
+            "folio_afi": "177812",
+            "district": 2,
+            "detainee": 4,
+            "has_been_released": false,
+            "entry_date": "2023-11-29 16:00:00.000 -0700",
+            "detainee_photo": 4,
+            "created_at": "2023-11-29 09:15:45.123 -0600",
+            "updated_at": "2023-11-29 09:15:45.123 -0600"
+        }
+    },
+    {
+        "model": "records.Records",
+        "pk": 5,
+        "fields": {
+            "folio_afi": "187812",
+            "district": 2,
+            "has_been_released": false,
+            "detainee": 5,
+            "entry_date": "2023-11-30 16:00:00.000 -0700",
+            "detainee_photo": 5,
+            "created_at": "2023-11-30 12:40:22.567 -0600",
+            "updated_at": "2023-11-30 12:40:22.567 -0600"
+        }
+    },
+    {
+        "model": "records.Records",
+        "pk": 6,
+        "fields": {
+            "folio_afi": "197812",
+            "district": 2,
+            "detainee": 6,
+            "has_been_released": false,
+            "entry_date": "2023-12-01 16:00:00.000 -0700",
+            "detainee_photo": 6,
+            "created_at": "2023-12-01 15:55:10.890 -0600",
+            "updated_at": "2023-12-01 15:55:10.890 -0600"
+        }
+    },
+    {
+        "model": "users.User",
+        "pk": 1,
+        "fields": {
+            "password": "thisisapassword",
+            "last_login": "2023-11-28 18:53:19.787 -0600",
+            "is_active": true,
+            "username": "JVALENZUELA",
+            "name": "JESUS",
+            "fathers_name": "VALENZUELA",
+            "mothers_name": "DOMINGUEZ",
+            "email": "jvalenzuela@siprob.com",
+            "medical_cedula": "128733782",
+            "district_default_id": 1,
+            "employee_number": 1,
+            "discriminator": "medic",
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "roles.Role",
+        "pk": 1,
+        "fields": {
+            "name": "Admin",
+            "color": "#FFFFFF",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "shifts.Shift",
+        "pk": 1,
+        "fields": {
+            "start_hour": "10",
+            "end_hour": "10",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "roles.Role",
+        "pk": 1,
+        "fields": {
+            "name": "Admin",
+            "color": "#FFFFFF",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "shifts.Shift",
+        "pk": 1,
+        "fields": {
+            "start_hour": "10",
+            "end_hour": "10",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "records.Events",
+        "pk": 1,
+        "fields": {
+            "id": 1,
+            "record_id": 1,
+            "event_datetime": "2023-11-28 18:53:19.787 -0600",
+            "discriminator": "fault",
+            "type": "alterar orden publico",
+            "detention_folio": "MED-SUR-5-2023-12-09T07:37:14",
+            "subtype": "fsadasdasdas",
+            "violence": "violence test",
+            "ambient": "ambient test",
+            "movil": "movil test",
+            "modus_operandi": "modus test",
+            "event_description": "description test",
+            "detention_datetime": "2023-11-28 18:53:19.787 -0600",
+            "detention_type": "recorrido",
+            "reason": "reason test",
+            "arrested_by": "police",
+            "place": "place test",
+            "unit": "unit test",
+            "sector": "sector test",
+            "clasification": "clasification test",
+            "locality": "juarez",
+            "country": "mexico",
+            "street": "test street",
+            "exterior_number": "1231",
+            "interior_number": "123A",
+            "colony": "juajua",
+            "cross_street": "jojojo",
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600"
+        }
+    },
+    {
+        "model": "records.Events",
+        "pk": 2,
+        "fields": {
+            "id": 2,
+            "record_id": 2,
+            "event_datetime": "2023-11-29 09:15:45.123 -0600",
+            "detention_folio": "MED-SUR-6-2023-12-09T07:37:14",
+            "discriminator": "incident",
+            "type": "public disturbance",
+            "subtype": "subsubtype",
+            "violence": "violence description",
+            "ambient": "ambient conditions",
+            "movil": "movil details",
+            "modus_operandi": "modus operandi details",
+            "event_description": "event description",
+            "detention_datetime": "2023-11-29 09:15:45.123 -0600",
+            "detention_type": "patrol",
+            "reason": "reason details",
+            "arrested_by": "law enforcement",
+            "place": "public square",
+            "unit": "patrol car",
+            "sector": "sector details",
+            "clasification": "classification details",
+            "locality": "mexico city",
+            "country": "mexico",
+            "street": "sample street",
+            "exterior_number": "456",
+            "interior_number": "789B",
+            "colony": "colony details",
+            "cross_street": "cross street details",
+            "is_active": true,
+            "created_at": "2023-11-29 09:15:45.123 -0600",
+            "updated_at": "2023-11-29 09:15:45.123 -0600"
+        }
+    },
+    {
+        "model": "records.Events",
+        "pk": 3,
+        "fields": {
+            "id": 3,
+            "record_id": 3,
+            "event_datetime": "2023-11-30 12:40:22.567 -0600",
+            "detention_folio": "MED-SUR-5-2023-12-09T10:37:14",
+            "discriminator": "accident",
+            "type": "traffic accident",
+            "subtype": "vehicle collision",
+            "violence": "no violence involved",
+            "ambient": "traffic conditions",
+            "movil": "involved vehicles",
+            "modus_operandi": "accident details",
+            "event_description": "accident description",
+            "detention_datetime": "2023-11-30 12:40:22.567 -0600",
+            "detention_type": "accident response",
+            "reason": "accident reason",
+            "arrested_by": "traffic police",
+            "place": "intersection",
+            "unit": "traffic patrol",
+            "sector": "accident response team",
+            "clasification": "accident classification",
+            "locality": "sample town",
+            "country": "mexico",
+            "street": "main street",
+            "exterior_number": "789",
+            "interior_number": "C21",
+            "colony": "downtown",
+            "cross_street": "secondary street",
+            "is_active": true,
+            "created_at": "2023-11-30 12:40:22.567 -0600",
+            "updated_at": "2023-11-30 12:40:22.567 -0600"
+        }
+    },
+    {
+        "model": "records.Events",
+        "pk": 4,
+        "fields": {
+            "id": 4,
+            "record_id": 4,
+            "event_datetime": "2023-12-01 15:55:10.890 -0600",
+            "detention_folio": "MED-SUR-5-2023-12-09T11:37:14",
+            "discriminator": "arrest",
+            "type": "drug-related arrest",
+            "subtype": "possession",
+            "violence": "no violence",
+            "ambient": "urban enviro",
+            "movil": "undercover op",
+            "modus_operandi": "possession details",
+            "event_description": "arrest description",
+            "detention_datetime": "2023-12-01 15:55:10.890 -0600",
+            "detention_type": "undercover op",
+            "reason": "possession of substances",
+            "arrested_by": "undercover agents",
+            "place": "alley",
+            "unit": "undercover narcotics unit",
+            "sector": "narcotics enforcement",
+            "clasification": "drug-related arrest",
+            "locality": "sample city",
+            "country": "mexico",
+            "street": "backstreet",
+            "exterior_number": "567",
+            "interior_number": "D42",
+            "colony": "downtown",
+            "cross_street": "side alley",
+            "is_active": true,
+            "created_at": "2023-12-01 15:55:10.890 -0600",
+            "updated_at": "2023-12-01 15:55:10.890 -0600"
+        }
+    },
+    {
+        "model": "records.Events",
+        "pk": 5,
+        "fields": {
+            "id": 5,
+            "record_id": 5,
+            "event_datetime": "2023-12-02 09:30:00.000 -0600",
+            "detention_folio": "MED-SUR-5-2023-12-09T06:37:14",
+            "discriminator": "search",
+            "type": "property search",
+            "subtype": "residence",
+            "violence": "no violence",
+            "ambient": "suburban neighborh",
+            "movil": "search warrant exec",
+            "modus_operandi": "search details",
+            "event_description": "property search desc",
+            "detention_datetime": "2023-12-02 09:30:00.000 -0600",
+            "detention_type": "executing warrant",
+            "reason": "suspicion of activities",
+            "arrested_by": "law enforcement",
+            "place": "residence",
+            "unit": "police search team",
+            "sector": "investigation",
+            "clasification": "property search",
+            "locality": "suburbia",
+            "country": "mexico",
+            "street": "maple street",
+            "exterior_number": "789",
+            "interior_number": "A1",
+            "colony": "greenfield",
+            "cross_street": "oak avenue",
+            "is_active": true,
+            "created_at": "2023-12-02 09:30:00.000 -0600",
+            "updated_at": "2023-12-02 09:30:00.000 -0600"
+        }
+    },
+    {
+        "model": "records.Events",
+        "pk": 6,
+        "fields": {
+            "id": 6,
+            "record_id": 6,
+            "event_datetime": "2023-12-03 14:20:00.000 -0600",
+            "detention_folio": "MED-SUR-5-2023-12-10T06:37:14",
+            "discriminator": "citation",
+            "type": "traffic violation",
+            "subtype": "speeding",
+            "violence": "no violence involved",
+            "ambient": "urban traffic",
+            "movil": "patrol car",
+            "modus_operandi": "speed radar",
+            "event_description": "speeding citation",
+            "detention_datetime": "2023-12-03 14:20:00.000 -0600",
+            "detention_type": "traffic stop",
+            "reason": "exceeding speed limit",
+            "arrested_by": "traffic officer",
+            "place": "main road",
+            "unit": "traffic enforcement",
+            "sector": "traffic control",
+            "clasification": "traffic citation",
+            "locality": "city center",
+            "country": "mexico",
+            "street": "boulevard",
+            "exterior_number": "456",
+            "interior_number": "",
+            "colony": "downtown",
+            "cross_street": "avenue",
+            "is_active": true,
+            "created_at": "2023-12-03 14:20:00.000 -0600",
+            "updated_at": "2023-12-03 14:20:00.000 -0600"
+        }
+    },
+    {
+        "model": "records.MedicalInformation",
+        "pk": 1,
+        "fields": {
+            "id": 1,
+            "user": 1,
+            "medic_name": "JESUS VALENZUELA",
+            "medical_cedula": "128733782",
+            "medical_date_time": "2023-11-28 18:53:19.787 -0600",
+            "folio": "1-1-2023-12-07-MED-1",
+            "weight": "80",
+            "height": "180",
+            "intoxication": "none",
+            "mental": "mental test",
+            "general_condition": "general condition test",
+            "pathologies": "none",
+            "medical_t": "101",
+            "medical_fc": "104",
+            "medical_fr": "910",
+            "medical_ta": "710",
+            "saturation": "10",
+            "diagnostic": "diagnostic test",
+            "blood_type": "O",
+            "rh_factor": "+",
+            "has_lesions": true,
+            "is_active": true,
+            "created_at": "2023-11-28 18:53:19.787 -0600",
+            "updated_at": "2023-11-28 18:53:19.787 -0600",
+            "record_id": 1
+        }
+    },
+    {
+        "model": "records.MedicalInformation",
+        "pk": 2,
+        "fields": {
+            "id": 2,
+            "user": 1,
+            "medic_name": "JESUS VALENZUELA",
+            "medical_cedula": "128733782",
+            "medical_date_time": "2023-11-28 18:53:19.787 -0600",
+            "folio": "1-1-2023-12-07-MED-2",
+            "weight": "65",
+            "height": "170",
+            "intoxication": "none",
+            "mental": "cognitive test",
+            "general_condition": "good",
+            "pathologies": "allergies",
+            "medical_t": "98",
+            "medical_fc": "80",
+            "medical_fr": "18",
+            "medical_ta": "120/80",
+            "saturation": "98",
+            "diagnostic": "no specific diagnosis",
+            "blood_type": "A",
+            "rh_factor": "-",
+            "has_lesions": false,
+            "is_active": true,
+            "created_at": "2023-11-29 09:15:45.123 -0600",
+            "updated_at": "2023-11-29 09:15:45.123 -0600",
+            "record_id": 2
+        }
+    },
+    {
+        "model": "records.MedicalInformation",
+        "pk": 3,
+        "fields": {
+            "id": 3,
+            "user": 1,
+            "medic_name": "JESUS VALENZUELA",
+            "medical_cedula": "128733782",
+            "medical_date_time": "2023-11-28 18:53:19.787 -0600",
+            "folio": "1-1-2023-12-07-MED-3",
+            "weight": "70",
+            "height": "175",
+            "intoxication": "none",
+            "mental": "psychological test",
+            "general_condition": "fair",
+            "pathologies": "hypertension",
+            "medical_t": "105",
+            "medical_fc": "90",
+            "medical_fr": "20",
+            "medical_ta": "130/85",
+            "saturation": "95",
+            "diagnostic": "controlled hypertension",
+            "blood_type": "B",
+            "rh_factor": "+",
+            "has_lesions": false,
+            "is_active": true,
+            "created_at": "2023-11-30 12:40:22.567 -0600",
+            "updated_at": "2023-11-30 12:40:22.567 -0600",
+            "record_id": 3
+        }
+    },
+    {
+        "model": "records.MedicalInformation",
+        "pk": 4,
+        "fields": {
+            "id": 4,
+            "user": 1,
+            "medic_name": "JESUS VALENZUELA",
+            "medical_cedula": "128733782",
+            "medical_date_time": "2023-11-28 18:53:19.787 -0600",
+            "folio": "1-4-2023-12-07-MED-4",
+            "weight": "75",
+            "height": "185",
+            "intoxication": "alcohol",
+            "mental": "emotional test",
+            "general_condition": "poor",
+            "pathologies": "diabetes",
+            "medical_t": "110",
+            "medical_fc": "95",
+            "medical_fr": "22",
+            "medical_ta": "140/90",
+            "saturation": "92",
+            "diagnostic": "uncontrolled diabetes",
+            "blood_type": "AB",
+            "rh_factor": "-",
+            "has_lesions": true,
+            "is_active": true,
+            "created_at": "2023-12-01 15:55:10.890 -0600",
+            "updated_at": "2023-12-01 15:55:10.890 -0600",
+            "record_id": 4
+        }
+    },
+    {
+        "model": "records.MedicalInformation",
+        "pk": 5,
+        "fields": {
+            "id": 5,
+            "user": 1,
+            "medic_name": "JESUS VALENZUELA",
+            "medical_cedula": "128733782",
+            "medical_date_time": "2023-11-28 18:53:19.787 -0600",
+            "folio": "1-4-2023-12-07-MED-4",
+            "weight": "90",
+            "height": "175",
+            "intoxication": "none",
+            "mental": "memory test",
+            "general_condition": "excellent",
+            "pathologies": "none",
+            "medical_t": "100",
+            "medical_fc": "75",
+            "medical_fr": "16",
+            "medical_ta": "110/70",
+            "saturation": "99",
+            "diagnostic": "healthy",
+            "blood_type": "O",
+            "rh_factor": "+",
+            "has_lesions": false,
+            "is_active": true,
+            "created_at": "2023-12-02 09:30:00.000 -0600",
+            "updated_at": "2023-12-02 09:30:00.000 -0600",
+            "record_id": 5
+        }
+    },
+    {
+        "model": "records.MedicalInformation",
+        "pk": 6,
+        "fields": {
+            "id": 6,
+            "user": 1,
+            "medic_name": "JESUS VALENZUELA",
+            "medical_cedula": "128733782",
+            "medical_date_time": "2023-11-28 18:53:19.787 -0600",
+            "folio": "1-6-2023-12-07-MED-4",
+            "weight": "78",
+            "height": "180",
+            "intoxication": "none",
+            "mental": "cognitive test",
+            "general_condition": "good",
+            "pathologies": "none",
+            "medical_t": "98",
+            "medical_fc": "85",
+            "medical_fr": "18",
+            "medical_ta": "120/80",
+            "saturation": "97",
+            "diagnostic": "no specific diagnosis",
+            "blood_type": "A",
+            "rh_factor": "+",
+            "has_lesions": false,
+            "is_active": true,
+            "created_at": "2023-12-03 14:20:00.000 -0600",
+            "updated_at": "2023-12-03 14:20:00.000 -0600",
+            "record_id": 6
+        }
+    },
+    {
+        "model": "records.LesionsPhotos",
+        "pk": 1,
+        "fields": {
+            "id": 1,
+            "image_path": "/image/test1",
+            "is_active": true,
+            "created_at": "2023-12-03 14:20:00.000 -0600",
+            "updated_at": "2023-12-03 14:20:00.000 -0600"
+        }
+    },
+    {
+        "model": "records.LesionsPhotos",
+        "pk": 2,
+        "fields": {
+            "id": 2,
+            "image_path": "/image/test2",
+            "is_active": true,
+            "created_at": "2023-12-03 14:20:00.000 -0600",
+            "updated_at": "2023-12-03 14:20:00.000 -0600"
+        }
+    },
+    {
+        "model": "records.LesionsPhotos",
+        "pk": 3,
+        "fields": {
+            "id": 3,
+            "image_path": "/image/test3",
+            "is_active": true,
+            "created_at": "2023-12-03 14:20:00.000 -0600",
+            "updated_at": "2023-12-03 14:20:00.000 -0600"
+        }
+    },
+    {
+        "model": "records.OtherRecords",
+        "pk": 3,
+        "fields": {
+            "id": 1,
+            "reason": "Accident",
+            "date": "2023-12-10",
+            "place": "Main Street",
+            "holder_name": "John Doe",
+            "brand": "Toyota",
+            "line": "Corolla",
+            "discriminator": "vehicles",
+            "model": "2020",
+            "color": "Blue",
+            "plates": "ABC123",
+            "serial_number": "S12345",
+            "stamp_number": "ST6789",
+            "association_expeditor": "BMW",
+            "comments": "Minor damages on the front bumper",
+            "is_active": true,
+            "created_at": "2023-12-10T08:00:00Z",
+            "updated_at": "2023-12-10T10:15:00Z",
+            "description": "Automobile",
+            "general_condition": "Used",
+            "quantity": 1,
+            "subtype": "Personal",
+            "type": "Vehicle",
+            "other_record_folio": "FOL33545",
+            "created_by": "Admin"
+        }
+    },
+    {
+        "model": "records.OtherRecords",
+        "pk": 3,
+        "fields": {
+            "id": 2,
+            "reason": "Theft",
+            "date": "2023-12-11",
+            "place": "Parking Lot C",
+            "holder_name": "Alice Smith",
+            "brand": "Apple",
+            "line": "iPhone",
+            "discriminator": "objects",
+            "model": "iPhone 13",
+            "color": "Black",
+            "plates": "",
+            "serial_number": "A6789",
+            "stamp_number": "",
+            "association_expeditor": "",
+            "comments": "Reported stolen on December 10th",
+            "is_active": true,
+            "created_at": "2023-12-11T11:30:00Z",
+            "updated_at": "2023-12-11T12:45:00Z",
+            "description": "Electronic Device",
+            "general_condition": "New",
+            "quantity": 1,
+            "subtype": "Personal",
+            "type": "Gadget",
+            "other_record_folio": "FOL12345",
+            "created_by": "User"
+        }
+    }
+]
