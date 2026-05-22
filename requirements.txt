@@ -1,4 +1,5 @@
 django
+gunicorn
 djangorestframework
 drf_yasg
 django-storages
