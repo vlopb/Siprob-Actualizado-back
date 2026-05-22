@@ -84,6 +84,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:80",
     "http://127.0.0.1:4200",
     "https://yourfrontenddomain.com",
+    "http://72.60.228.194.sslip.io",
+    "https://72.60.228.194.sslip.io",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True  # Para desarrollo local
